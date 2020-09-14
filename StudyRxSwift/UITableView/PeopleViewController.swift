@@ -16,7 +16,6 @@ class PeopleViewController: UIViewController {
     let peopleViewModel = PeopleViewModel()
     /// RxSwift垃圾袋
     let disppseBag = DisposeBag()
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.title = "table"
