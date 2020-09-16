@@ -23,6 +23,12 @@
 		8E047B4E250A0E7900CA0A2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E047B4C250A0E7900CA0A2C /* LaunchScreen.storyboard */; };
 		8E047B55250A0EEB00CA0A2C /* Pods_StudyRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00CD0FBD66474E5D5551217F /* Pods_StudyRxSwift.framework */; };
 		8E047B5A250A0FC500CA0A2C /* Exports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E047B59250A0FC500CA0A2C /* Exports.swift */; };
+		8E4150192511DC52001E3A64 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4150172511DC52001E3A64 /* TestViewController.swift */; };
+		8E41501A2511DC52001E3A64 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E4150182511DC52001E3A64 /* TestViewController.xib */; };
+		8E457700251058580044C30F /* doOnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4576FE251058580044C30F /* doOnViewController.swift */; };
+		8E457701251058580044C30F /* doOnViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E4576FF251058580044C30F /* doOnViewController.xib */; };
+		8E45770425105D740044C30F /* ObserverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E45770225105D740044C30F /* ObserverViewController.swift */; };
+		8E45770525105D740044C30F /* ObserverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E45770325105D740044C30F /* ObserverViewController.xib */; };
 		8EA5DF46250F6100000CA557 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA5DF45250F6100000CA557 /* Define.swift */; };
 		8EA5DF48250F6361000CA557 /* SubscribeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA5DF47250F6361000CA557 /* SubscribeViewController.swift */; };
 /* End PBXBuildFile section */
@@ -47,6 +53,12 @@
 		8E047B4D250A0E7900CA0A2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E047B4F250A0E7900CA0A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E047B59250A0FC500CA0A2C /* Exports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exports.swift; sourceTree = "<group>"; };
+		8E4150172511DC52001E3A64 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		8E4150182511DC52001E3A64 /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		8E4576FE251058580044C30F /* doOnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doOnViewController.swift; sourceTree = "<group>"; };
+		8E4576FF251058580044C30F /* doOnViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = doOnViewController.xib; sourceTree = "<group>"; };
+		8E45770225105D740044C30F /* ObserverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverViewController.swift; sourceTree = "<group>"; };
+		8E45770325105D740044C30F /* ObserverViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ObserverViewController.xib; sourceTree = "<group>"; };
 		8EA5DF45250F6100000CA557 /* Define.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Define.swift; sourceTree = "<group>"; };
 		8EA5DF47250F6361000CA557 /* SubscribeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeViewController.swift; sourceTree = "<group>"; };
 		F2A7F570D22C98B74BF1F9D9 /* Pods-StudyRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyRxSwift.release.xcconfig"; path = "Target Support Files/Pods-StudyRxSwift/Pods-StudyRxSwift.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,6 +126,9 @@
 		8E047B40250A0E7700CA0A2C /* StudyRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				8E41501B2511DC58001E3A64 /* Test */,
+				8E45770625105D790044C30F /* Observer */,
+				8E4576FD251058490044C30F /* doOn */,
 				8EA5DF44250F5D0E000CA557 /* Subscribe */,
 				8E01A372250F3D04003B375C /* Observable */,
 				8E01A365250F0C9B003B375C /* UITableView */,
@@ -138,6 +153,33 @@
 				8E01A368250F110A003B375C /* UIViewController+Extension.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		8E41501B2511DC58001E3A64 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				8E4150172511DC52001E3A64 /* TestViewController.swift */,
+				8E4150182511DC52001E3A64 /* TestViewController.xib */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		8E4576FD251058490044C30F /* doOn */ = {
+			isa = PBXGroup;
+			children = (
+				8E4576FE251058580044C30F /* doOnViewController.swift */,
+				8E4576FF251058580044C30F /* doOnViewController.xib */,
+			);
+			path = doOn;
+			sourceTree = "<group>";
+		};
+		8E45770625105D790044C30F /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				8E45770225105D740044C30F /* ObserverViewController.swift */,
+				8E45770325105D740044C30F /* ObserverViewController.xib */,
+			);
+			path = Observer;
 			sourceTree = "<group>";
 		};
 		8EA5DF44250F5D0E000CA557 /* Subscribe */ = {
@@ -218,8 +260,11 @@
 			files = (
 				8E047B4E250A0E7900CA0A2C /* LaunchScreen.storyboard in Resources */,
 				8E01A376250F3D12003B375C /* ObservableViewController.xib in Resources */,
+				8E457701251058580044C30F /* doOnViewController.xib in Resources */,
+				8E45770525105D740044C30F /* ObserverViewController.xib in Resources */,
 				8E01A371250F11E3003B375C /* PeopleViewController.xib in Resources */,
 				8E047B4B250A0E7900CA0A2C /* Assets.xcassets in Resources */,
+				8E41501A2511DC52001E3A64 /* TestViewController.xib in Resources */,
 				8E047B49250A0E7700CA0A2C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,13 +319,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E01A369250F110A003B375C /* UIViewController+Extension.swift in Sources */,
+				8E457700251058580044C30F /* doOnViewController.swift in Sources */,
 				8E01A36D250F11C2003B375C /* PeopleViewModel.swift in Sources */,
 				8E047B46250A0E7700CA0A2C /* ViewController.swift in Sources */,
+				8E45770425105D740044C30F /* ObserverViewController.swift in Sources */,
 				8E01A375250F3D12003B375C /* ObservableViewController.swift in Sources */,
 				8EA5DF46250F6100000CA557 /* Define.swift in Sources */,
 				8E047B5A250A0FC500CA0A2C /* Exports.swift in Sources */,
 				8E01A36B250F11B8003B375C /* PeopleModel.swift in Sources */,
 				8E01A370250F11E3003B375C /* PeopleViewController.swift in Sources */,
+				8E4150192511DC52001E3A64 /* TestViewController.swift in Sources */,
 				8E047B42250A0E7700CA0A2C /* AppDelegate.swift in Sources */,
 				8EA5DF48250F6361000CA557 /* SubscribeViewController.swift in Sources */,
 				8E047B44250A0E7700CA0A2C /* SceneDelegate.swift in Sources */,

@@ -11,7 +11,7 @@ target 'StudyRxSwift' do
   pod 'RxCocoa', '~> 5.0'
   # pod 'RxBlocking', '~> 5.0'
   # pod 'RxTest', '~> 5.0'
-  # 布局SDK
+  # SnapKit布局
   pod 'SnapKit'	
 
 end

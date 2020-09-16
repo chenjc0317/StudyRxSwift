@@ -20,7 +20,11 @@ struct DataViewModel {
     let data = Observable.just([
         DataModel(name: "UITableView"),
         DataModel(name: "Observable"),
-        DataModel(name: "Subscribe")
+        DataModel(name: "Subscribe"),
+        DataModel(name: "DoOn"),
+        DataModel(name: "Observer"),
+        DataModel(name: "Test")
+        
     ])
 }
 
@@ -74,6 +78,18 @@ class ViewController: UIViewController {
                 break
             case 2:
                 let vc = SubscribeViewController()
+                self.pushVC(vc)
+                break
+            case 3:
+                let vc = doOnViewController()
+                self.pushVC(vc)
+                break
+            case 4:
+                let vc = ObserverViewController()
+                self.pushVC(vc)
+                break
+            case 5:
+                let vc = TestViewController()
                 self.pushVC(vc)
                 break
             default:

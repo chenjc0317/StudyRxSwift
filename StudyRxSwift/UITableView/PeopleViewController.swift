@@ -20,7 +20,6 @@ class PeopleViewController: UIViewController {
         super.viewDidLoad()
         navigationItem.title = "table"
         initTableView()
-        
     }
     
     func initTableView(){

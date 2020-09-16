@@ -20,19 +20,19 @@ class SubscribeViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .white
         navigationItem.title = "Subscribe"
-        
+        /// 序列对象
         let observabel = Observable<String>.of("0","1","2")
-        // 我们使用 subscribe() 订阅了一个 Observable 对象，该方法的 block 的回调参数就是被发出的 event 事件，我们将其直接打印出来。
+        ///# 方法1：我们使用subscribe()订阅一个Observable对象，该方法的 block 的回调参数就是被发出的 event 事件，我们将其直接打印出来。
         observabel.subscribe{ event in
             print(event)
         }.disposed(by: disppseBag)
         
-        // 获取到这个事件里的数据，可以通过 event.element 得到
+        ///# 获取到这个事件里的数据，可以通过 event.element 得到
         observabel.subscribe{ event in
             print(event.element)
         }.disposed(by: disppseBag)
         
-        // 分类打印数据
+        ///# 方法2：分类打印数据 通过不同的block回调处理不同类型的Event事件
         observabel.subscribe(onNext: { event in
             print(event)
         }, onError: { error in
