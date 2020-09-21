@@ -23,7 +23,8 @@ struct DataViewModel {
         DataModel(name: "Subscribe"),
         DataModel(name: "DoOn"),
         DataModel(name: "Observer"),
-        DataModel(name: "Test")
+        DataModel(name: "StackView"),
+        DataModel(name: "DiffableDataSource")
         
     ])
 }
@@ -89,7 +90,11 @@ class ViewController: UIViewController {
                 self.pushVC(vc)
                 break
             case 5:
-                let vc = TestViewController()
+                let vc = StackViewController()
+                self.pushVC(vc)
+                break
+            case 6:
+                let vc = DiffableDataSourceViewController()
                 self.pushVC(vc)
                 break
             default:

@@ -12,6 +12,8 @@ target 'StudyRxSwift' do
   # pod 'RxBlocking', '~> 5.0'
   # pod 'RxTest', '~> 5.0'
   # SnapKit布局
-  pod 'SnapKit'	
+  pod 'SnapKit'
+  # 刷新控件
+  pod 'MJRefresh'
 
 end

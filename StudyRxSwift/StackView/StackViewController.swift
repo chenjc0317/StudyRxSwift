@@ -7,8 +7,8 @@
 //
 
 import UIKit
-
-class TestViewController: UIViewController {
+// StackView
+class StackViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
