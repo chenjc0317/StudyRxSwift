@@ -1,4 +1,12 @@
 PODS:
+  - InputBarAccessoryView (4.3.3):
+    - InputBarAccessoryView/Core (= 4.3.3)
+  - InputBarAccessoryView/Core (4.3.3)
+  - JSQMessagesViewController (7.3.5):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+  - MessageKit (3.1.0):
+    - InputBarAccessoryView (~> 4.3.0)
   - MJRefresh (3.5.0)
   - RxCocoa (5.1.1):
     - RxRelay (~> 5)
@@ -9,6 +17,8 @@ PODS:
   - SnapKit (5.0.1)
 
 DEPENDENCIES:
+  - JSQMessagesViewController
+  - MessageKit
   - MJRefresh
   - RxCocoa (~> 5.0)
   - RxSwift (~> 5.0)
@@ -16,6 +26,10 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - InputBarAccessoryView
+    - JSQMessagesViewController
+    - JSQSystemSoundPlayer
+    - MessageKit
     - MJRefresh
     - RxCocoa
     - RxRelay
@@ -23,12 +37,16 @@ SPEC REPOS:
     - SnapKit
 
 SPEC CHECKSUMS:
+  InputBarAccessoryView: 8e7fc09e9cba75e0fee5da13450e15c194806f69
+  JSQMessagesViewController: 6587f56aedbcb150a8ba1d968e1ef58b1bc758b7
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  MessageKit: 3beb578737a5aa2bba25cc27c7b6d6faa09af5a7
   MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: 1d03811265e7cc0ad3a0c66ac89b4dfdd49a9110
+PODFILE CHECKSUM: 0267bcadbc986868f0a90665a8d151c2ff069f7a
 
 COCOAPODS: 1.9.3

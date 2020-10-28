@@ -15,5 +15,7 @@ target 'StudyRxSwift' do
   pod 'SnapKit'
   # 刷新控件
   pod 'MJRefresh'
-
+  # 聊天第三方
+  pod 'JSQMessagesViewController'
+  pod 'MessageKit'
 end

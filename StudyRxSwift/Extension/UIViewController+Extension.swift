@@ -15,11 +15,13 @@ public extension UIViewController{
     func pushVC(_ vc: UIViewController, animated: Bool = true) {
         navigationController?.pushViewController(vc, animated: animated)
     }
-
+    
     /// 从导航堆栈中弹出顶层视图控制器并更新显示
     /// - Parameter animated: 是否有动画, 默认有
     func popVC(animated: Bool = true) {
         navigationController?.popViewController(animated: animated)
     }
+    
+    
 }
 

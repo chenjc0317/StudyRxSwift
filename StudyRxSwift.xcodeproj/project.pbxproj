@@ -29,6 +29,8 @@
 		8E457701251058580044C30F /* doOnViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E4576FF251058580044C30F /* doOnViewController.xib */; };
 		8E45770425105D740044C30F /* ObserverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E45770225105D740044C30F /* ObserverViewController.swift */; };
 		8E45770525105D740044C30F /* ObserverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E45770325105D740044C30F /* ObserverViewController.xib */; };
+		8E4BD1852549670F0086F085 /* JSQMessagesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4BD1832549670F0086F085 /* JSQMessagesVC.swift */; };
+		8E4BD199254970B30086F085 /* MessageKitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4BD198254970B30086F085 /* MessageKitVC.swift */; };
 		8EA5DF46250F6100000CA557 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA5DF45250F6100000CA557 /* Define.swift */; };
 		8EA5DF48250F6361000CA557 /* SubscribeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA5DF47250F6361000CA557 /* SubscribeViewController.swift */; };
 		8EBB62BC251890BD004D1176 /* DiffableDataSourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB62BA251890BD004D1176 /* DiffableDataSourceViewController.swift */; };
@@ -62,6 +64,8 @@
 		8E4576FF251058580044C30F /* doOnViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = doOnViewController.xib; sourceTree = "<group>"; };
 		8E45770225105D740044C30F /* ObserverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverViewController.swift; sourceTree = "<group>"; };
 		8E45770325105D740044C30F /* ObserverViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ObserverViewController.xib; sourceTree = "<group>"; };
+		8E4BD1832549670F0086F085 /* JSQMessagesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSQMessagesVC.swift; sourceTree = "<group>"; };
+		8E4BD198254970B30086F085 /* MessageKitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageKitVC.swift; sourceTree = "<group>"; };
 		8EA5DF45250F6100000CA557 /* Define.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Define.swift; sourceTree = "<group>"; };
 		8EA5DF47250F6361000CA557 /* SubscribeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeViewController.swift; sourceTree = "<group>"; };
 		8EBB62BA251890BD004D1176 /* DiffableDataSourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableDataSourceViewController.swift; sourceTree = "<group>"; };
@@ -132,6 +136,8 @@
 		8E047B40250A0E7700CA0A2C /* StudyRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				8E4BD197254970A70086F085 /* MessageKit */,
+				8E4BD182254967040086F085 /* JSQMessagesViewController */,
 				8EBB62CA2518A6F9004D1176 /* Extension */,
 				8EBB62B9251890A9004D1176 /* DiffableDataSource */,
 				8E41501B2511DC58001E3A64 /* StackView */,
@@ -187,6 +193,22 @@
 				8E45770325105D740044C30F /* ObserverViewController.xib */,
 			);
 			path = Observer;
+			sourceTree = "<group>";
+		};
+		8E4BD182254967040086F085 /* JSQMessagesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8E4BD1832549670F0086F085 /* JSQMessagesVC.swift */,
+			);
+			path = JSQMessagesViewController;
+			sourceTree = "<group>";
+		};
+		8E4BD197254970A70086F085 /* MessageKit */ = {
+			isa = PBXGroup;
+			children = (
+				8E4BD198254970B30086F085 /* MessageKitVC.swift */,
+			);
+			path = MessageKit;
 			sourceTree = "<group>";
 		};
 		8EA5DF44250F5D0E000CA557 /* Subscribe */ = {
@@ -353,12 +375,14 @@
 				8EA5DF46250F6100000CA557 /* Define.swift in Sources */,
 				8E047B5A250A0FC500CA0A2C /* Exports.swift in Sources */,
 				8EBB62C125189169004D1176 /* DiffableDataSourceModel.swift in Sources */,
+				8E4BD1852549670F0086F085 /* JSQMessagesVC.swift in Sources */,
 				8EBB62BC251890BD004D1176 /* DiffableDataSourceViewController.swift in Sources */,
 				8E01A36B250F11B8003B375C /* PeopleModel.swift in Sources */,
 				8E01A370250F11E3003B375C /* PeopleViewController.swift in Sources */,
 				8E4150192511DC52001E3A64 /* StackViewController.swift in Sources */,
 				8E047B42250A0E7700CA0A2C /* AppDelegate.swift in Sources */,
 				8EA5DF48250F6361000CA557 /* SubscribeViewController.swift in Sources */,
+				8E4BD199254970B30086F085 /* MessageKitVC.swift in Sources */,
 				8E047B44250A0E7700CA0A2C /* SceneDelegate.swift in Sources */,
 				8E01A367250F0D15003B375C /* TabBarViewController.swift in Sources */,
 			);

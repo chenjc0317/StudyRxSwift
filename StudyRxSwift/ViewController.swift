@@ -24,8 +24,9 @@ struct DataViewModel {
         DataModel(name: "DoOn"),
         DataModel(name: "Observer"),
         DataModel(name: "StackView"),
-        DataModel(name: "DiffableDataSource")
-        
+        DataModel(name: "DiffableDataSource"),
+        DataModel(name: "JSQMessages"),
+        DataModel(name: "MessageKit")
     ])
 }
 
@@ -97,6 +98,15 @@ class ViewController: UIViewController {
                 let vc = DiffableDataSourceViewController()
                 self.pushVC(vc)
                 break
+            case 7:
+                let vc = JSQMessagesVC()
+                self.pushVC(vc)
+                break
+            case 8:
+                let vc = MessageKitVC()
+                self.pushVC(vc)
+                break
+                
             default:
                 break
             }
