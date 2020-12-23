@@ -18,4 +18,7 @@ target 'StudyRxSwift' do
   # 聊天第三方
   pod 'JSQMessagesViewController'
   pod 'MessageKit'
+  
+  # Flexbox布局
+  pod "Texture"
 end
