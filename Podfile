@@ -16,9 +16,11 @@ target 'StudyRxSwift' do
   # 刷新控件
   pod 'MJRefresh'
   # 聊天第三方
-  pod 'JSQMessagesViewController'
-  pod 'MessageKit'
+  # pod 'JSQMessagesViewController'
+  # pod 'MessageKit'
   
   # Flexbox布局
-  pod "Texture"
+  # pod "Texture"
+  
+  pod 'ProgressHUD'
 end

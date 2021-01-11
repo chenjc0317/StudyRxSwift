@@ -151,6 +151,8 @@ extension DiffableDataSourceViewController : UITableViewDelegate{
         }
         print("section",indexPath.section)
         print("row",indexPath.row)
+        
+        
     }
 }
 
