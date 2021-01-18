@@ -136,10 +136,10 @@
 		8E047B40250A0E7700CA0A2C /* StudyRxSwift */ = {
 			isa = PBXGroup;
 			children = (
-				8E4BD197254970A70086F085 /* MessageKit */,
-				8E4BD182254967040086F085 /* JSQMessagesViewController */,
 				8EBB62CA2518A6F9004D1176 /* Extension */,
 				8EBB62B9251890A9004D1176 /* DiffableDataSource */,
+				8E4BD197254970A70086F085 /* MessageKit */,
+				8E4BD182254967040086F085 /* JSQMessagesViewController */,
 				8E41501B2511DC58001E3A64 /* StackView */,
 				8E45770625105D790044C30F /* Observer */,
 				8E4576FD251058490044C30F /* doOn */,

@@ -4,7 +4,7 @@ platform :ios, '9.0'
 target 'StudyRxSwift' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-
+  
   # Pods for StudyRxSwift
   # RxSwift全家桶
   pod 'RxSwift', '~> 5.0'
@@ -16,11 +16,13 @@ target 'StudyRxSwift' do
   # 刷新控件
   pod 'MJRefresh'
   # 聊天第三方
-  # pod 'JSQMessagesViewController'
-  # pod 'MessageKit'
+  pod 'JSQMessagesViewController'
+  pod 'MessageKit'
   
   # Flexbox布局
   # pod "Texture"
   
-  pod 'ProgressHUD'
+  # pod 'ProgressHUD'
+  # 彩色log
+  pod 'SwiftyBeaver'
 end
