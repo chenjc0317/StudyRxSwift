@@ -25,4 +25,8 @@ target 'StudyRxSwift' do
   # pod 'ProgressHUD'
   # 彩色log
   pod 'SwiftyBeaver'
+  # 拓展
+  pod 'SwifterSwift'
+  
+  pod 'SwiftEntryKit', '1.2.7'
 end

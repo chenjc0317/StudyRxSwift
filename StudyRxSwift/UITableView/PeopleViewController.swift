@@ -9,6 +9,7 @@
 import UIKit
 import RxSwift
 import RxCocoa
+import SwifterSwift
 
 class PeopleViewController: UIViewController {
     @IBOutlet weak var myTableView: UITableView!
@@ -45,12 +46,12 @@ class PeopleViewController: UIViewController {
         */
         myTableView.rx.itemSelected.subscribe(onNext: { (indexPath) in
             self.myTableView.deselectRow(at: indexPath, animated: true)
-            
             log.verbose("选择了\(indexPath.row)行") // prio 1, VERBOSE in silver
             log.debug("选择了\(indexPath.row)行") // prio 2, DEBUG in green
             log.info("选择了\(indexPath.row)行")   // prio 3, INFO in blue
             log.warning("选择了\(indexPath.row)行")  // prio 4, WARNING in yellow
             log.error("选择了\(indexPath.row)行")  // prio 5, ERROR in red
         }).disposed(by: disppseBag)
+        
     }
 }
