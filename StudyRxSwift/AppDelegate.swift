@@ -13,8 +13,6 @@ let log = SwiftyBeaver.self
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         let console = ConsoleDestination()
         log.addDestination(console)

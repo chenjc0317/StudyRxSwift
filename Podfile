@@ -18,17 +18,17 @@ target 'StudyRxSwift' do
   # 聊天第三方
   pod 'JSQMessagesViewController'
   pod 'MessageKit'
-  
   # Flexbox布局
   # pod "Texture"
-  
   # pod 'ProgressHUD'
   # 彩色log
   pod 'SwiftyBeaver'
   # 拓展
   pod 'SwifterSwift'
-  
-  pod 'SwiftEntryKit', '1.2.7'
-  
+  # pod 'SwiftEntryKit', '1.2.7'
   pod 'Alamofire', '~> 5.4.1'
+  # Tabbar
+  pod "ESTabBarController-swift"
+  # 骨架屏框架
+  pod 'TABAnimated', '~> 2.5.1'
 end
